@@ -22,7 +22,7 @@ main section:nth-of-type(even) {
 }
 
 .container {
-    max-width: 90%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -72,6 +72,10 @@ header {
     padding-top: 100px;
 }
 
+#demo-app .container .card:first-child {
+    padding-bottom: 0px;
+}
+
 .card {
     background-color: #b5ddff;
     padding: 40px 30px;
@@ -79,9 +83,49 @@ header {
     border-radius: 20px;
 }
 
+#app-store-button {
+    padding: 15px 35px;
+    background-color: #0084fd;
+    width: 85%;
+    border-radius: 30px;
+}
+
+#app-store-button #apple {
+    color: #fff;
+}
+
+#app-store-button a {
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#app-store-button span {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+#demo-app .card p {
+    color: #4f687e;
+    font-weight: bold;
+    line-height: 1.6rem;
+}
+
 #demo-app .container {
     row-gap: 25px;
     margin-bottom: 90px;
+}
+
+#demo-app .container .card h3 {
+    color: #0084ff;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+#demo-app .container .card i {
+    color: #0084ff;
 }
 
 
