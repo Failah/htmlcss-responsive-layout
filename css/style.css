@@ -281,6 +281,22 @@ header i {
 }
 
 
+/* about us section */
+
+#about-us .container {
+    padding: 80px 0px 70px;
+}
+
+#linkedin div:first-child {
+    width: 50%;
+    height: 50%;
+    margin: 40px 0px 30px;
+}
+
+#linkedin div:first-child img {
+    clip-path: circle(50%);
+}
+
 /* footer */
 
 footer {
