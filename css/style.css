@@ -6,6 +6,39 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 img {
+    width: 100%;
+}
+
+
+/* flex */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+
+/* contents */
+
+/* header */
+
+header {
+    background-color: #0084fd;
+    position: fixed;
     width: 100%;
 }
