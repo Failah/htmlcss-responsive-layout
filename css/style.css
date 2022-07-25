@@ -15,6 +15,22 @@ img {
 }
 
 
+/* utilities */
+
+main section:nth-of-type(even) {
+    background-color: #9792e4;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
 /* flex */
 
 .row {
@@ -26,6 +42,10 @@ img {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
 }
 
 .space-between {
@@ -41,4 +61,43 @@ header {
     background-color: #0084fd;
     position: fixed;
     width: 100%;
+}
+
+
+/* main */
+
+/* demo application section */
+
+#demo-app {
+    padding-top: 100px;
+}
+
+.card {
+    background-color: #b5ddff;
+    padding: 40px 30px;
+    row-gap: 30px;
+    border-radius: 20px;
+}
+
+#demo-app .container {
+    row-gap: 25px;
+    margin-bottom: 90px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #333333;
+}
+
+
+/* debug */
+
+.debug section {
+    min-height: 500px;
+}
+
+.debug footer {
+    min-height: 500px;
 }
