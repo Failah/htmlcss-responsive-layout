@@ -505,6 +505,32 @@ footer .container div:last-child span {
 
 /* media query 1200px */
 
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 60%;
+    }
+
+    #demo-app .container .card:first-child {
+        position: relative;
+    }
+
+    #demo-app .container .card:first-child h3,
+    #demo-app .container .card:first-child p {
+        max-width: 50%;
+    }
+
+    #demo-app .container .card:first-child div:last-child {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        flex-direction: row-reverse;
+    }
+
+    #demo-app img {
+        width: 45%;
+    }
+}
+
 
 /* debug */
 
