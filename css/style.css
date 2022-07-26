@@ -529,6 +529,35 @@ footer .container div:last-child span {
     #demo-app img {
         width: 45%;
     }
+
+    #strategic-planning .container {
+        max-width: 50%;
+        flex-direction: row;
+        column-gap: 70px;
+        padding-top: 120px;
+    }
+
+    #strategic-planning .container div {
+        width: calc(50% - 35px);
+    }
+
+    #strategic-planning .container div:first-child {
+        display: flex;
+        flex-direction: column
+    }
+
+    #strategic-planning .container div:first-child div:first-child {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #strategic-planning .card-2 {
+        margin-top: 100px;
+    }
+
+    #strategic-planning .card-2 div:last-child {
+        width: auto;
+    }
 }
 
 
