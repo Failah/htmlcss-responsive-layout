@@ -222,8 +222,10 @@ header i {
     line-height: 1.6rem;
 }
 
-#testimonials .card-2 div:last-child {
+#testimonials .card-2 div:last-child div {
     font-weight: bold;
+    padding-top: 20px;
+    font-size: 1.2rem;
 }
 
 #testimonials .card-2 div:first-child {
@@ -334,7 +336,7 @@ header i {
 #linkedin div:last-child {
     background-color: #9792e4;
     padding: 10px;
-    width: 60%;
+    width: 220px;
     border-radius: 30px;
 }
 
@@ -384,7 +386,7 @@ header i {
     letter-spacing: 0.2rem;
     font-size: 1.2rem;
     padding: 20px;
-    width: 70%;
+    width: 270px;
     border-radius: 30px;
     margin: 30px 0px;
 }
@@ -424,17 +426,39 @@ footer .container div:last-child span {
 /* media query 768px */
 
 @media screen and (min-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
     #demo-app .container .card {
         width: calc(100% / 3 - 20px);
     }
 
     #demo-app .container .card:first-child {
-        width: calc(100% / 3 * 2);
+        width: calc(100% / 3 * 2 - 10px);
     }
 
     #demo-app .container {
         flex-direction: row;
-        column-gap: 20px;
+        justify-content: space-between;
+    }
+
+    #demo-app img {
+        width: 60%;
+    }
+
+    #testimonials .card-2 {
+        flex-direction: row;
+        column-gap: 15px;
+    }
+
+    #testimonials .card-2 div:last-child {
+        width: 65%;
+        text-align: left;
+    }
+
+    #testimonials .card-2 div:last-child p {
+        text-align: left;
     }
 }
 
