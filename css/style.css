@@ -558,6 +558,22 @@ footer .container div:last-child span {
     #strategic-planning .card-2 div:last-child {
         width: auto;
     }
+
+    #testimonials .container .testimonial-descr h2 {
+        font-size: 3rem;
+    }
+
+    #testimonials .card-2 div:first-child {
+        margin-right: 65px;
+    }
+
+    #benefits .container .card {
+        width: calc(100% / 3 - 15px);
+    }
+
+    footer .container {
+        max-width: 20%;
+    }
 }
 
 
