@@ -460,6 +460,46 @@ footer .container div:last-child span {
     #testimonials .card-2 div:last-child p {
         text-align: left;
     }
+
+    #benefits .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #benefits .container .card {
+        width: calc(100% / 2 - 15px);
+    }
+
+    #benefits .container h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #about-us .container {
+        flex-direction: row;
+        column-gap: 65px;
+    }
+
+    #about-us .container #about-description {
+        width: calc(60% - 20px);
+    }
+
+    #about-us .container>div:last-child {
+        width: 30%;
+    }
+
+    #linkedin div:first-child {
+        height: auto;
+        width: 100%;
+    }
+
+    #linkedin h2 {
+        font-size: 1.5rem;
+    }
+
+    footer .container {
+        max-width: 50%;
+    }
 }
 
 
